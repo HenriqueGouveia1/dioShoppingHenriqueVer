@@ -12,7 +12,7 @@ const Cart = () => {
         totalPrice += (cart.Cart[i].price * cart.Cart[i].quantity)
     }
 
-    if(cart.value > 0){
+    if(cart.value >= 0){
         localStorage.setItem('dioshopping: cart', JSON.stringify(cart))
     }
 
