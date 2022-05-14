@@ -9,10 +9,10 @@ const Header = () => {
             <Typography variant='h3'>
                 Dio Shopping
             </Typography>
-            <Link to="/">
-                <Button color="primary">Home</Button>
+            <Link style={{textDecoration: "none"}} to="/">
+                <Button color="primary" >Home</Button>
             </Link>
-            <Link to="/contato">
+            <Link style={{textDecoration: "none"}} to="/contato">
                 <Button color="primary">Contato</Button>
             </Link>
             <Cart />   
