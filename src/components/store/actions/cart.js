@@ -37,10 +37,12 @@ const ChangeCart = (localCart) => {
     }
 }
 
-export default {
+const objectsExports = {
     Add,
     AddItem,
     RemoveItem,
     DeleteItem,
     ChangeCart
 }
+
+export default objectsExports
